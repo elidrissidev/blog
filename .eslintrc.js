@@ -7,5 +7,8 @@ module.exports = {
   rules: {
     "gridsome/format-query-block": "error"
   },
-  parser: "vue-eslint-parser"
+  parser: "vue-eslint-parser",
+  parserOptions: {
+    sourceType: "module"
+  }
 }
