@@ -1,0 +1,10 @@
+{
+  "eslint.validate": [
+    "javascript",
+    "vue"
+  ],
+  "vetur.grammar.customBlocks": {
+    "page-query": "graphql",
+    "static-query": "graphql"
+  }
+}
