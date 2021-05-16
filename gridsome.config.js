@@ -5,11 +5,11 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Gridsome Blog Starter',
-  siteDescription: 'A simple, hackable & minimalistic starter for Gridsome that uses Markdown for content.',
+  siteName: 'The Self-Taught Blog',
+  siteDescription: 'Journey to a Self-Taught Software Engineer, Driven by Curiosity',
 
   templates: {
-    Post: '/:title',
+    Post: '/post/:title',
     Tag: '/tag/:id'
   },
 
@@ -19,7 +19,7 @@ module.exports = {
       use: '@gridsome/source-filesystem',
       options: {
         typeName: 'Post',
-        path: 'content/posts/*.md',
+        path: 'content/**/*.md',
         refs: {
           // Creates a GraphQL collection from 'tags' in front-matter and adds a reference.
           tags: {
