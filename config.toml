@@ -1,0 +1,15 @@
+baseURL = 'https://www.elidrissi.dev/'
+languageCode = 'en-us'
+title = 'Bits & Bytes'
+theme = 'hello-friend'
+
+[params]
+    showReadingTime = true
+
+[params.logo]
+    logoText = 'Bits & Bytes'
+
+[languages]
+    [languages.en]
+        title = "Bits & Bytes"
+        subtitle = "A blog about the technical, the personal, and everything in between"
