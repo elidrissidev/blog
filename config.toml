@@ -2,6 +2,7 @@ baseURL = 'https://www.elidrissi.dev/'
 languageCode = 'en-us'
 title = 'Bits & Bytes'
 theme = 'hello-friend'
+enableRobotsTXT = true
 
 [params]
     showReadingTime = true
